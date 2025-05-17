@@ -49,18 +49,11 @@ body {
   cursor: pointer;
 }
 
-#editor {
-  width: 80%;
-  margin: 20px auto;
-  border: 1px solid #ccc;
-  background-color: white;
-  min-height: 300px;
-  padding: 15px;
-  text-align: left;
-  font-size: 16px;
-}
-#editor:empty::before {
+#editor:empty:before {
   content: attr(data-placeholder);
-  color: #888;
+  color: #aaa;
+  font-style: italic;
   pointer-events: none;
+  display: block;
 }
+
