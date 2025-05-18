@@ -49,7 +49,18 @@ body {
   cursor: pointer;
 }
 
-#editor:empty:before {
+#editor {
+  width: 80%;
+  margin: 20px auto;
+  min-height: 300px;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  background: #fff;
+  position: relative;
+}
+
+#editor:empty::before {
   content: attr(data-placeholder);
   color: #aaa;
   font-style: italic;
@@ -57,15 +68,5 @@ body {
   display: block;
 }
 
-#editor {
-  width: 80%;
-  margin: 20px auto;
-  padding: 15px;
-  border: 1px solid #ccc;
-  background-color: #fff;
-  min-height: 300px;
-  font-size: 16px;
-  text-align: left;
-}
 
 
