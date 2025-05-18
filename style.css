@@ -57,13 +57,5 @@ body {
   display: block;
 }
 
-#editor {
-  width: 80%;
-  margin: 20px auto;
-  border: 1px solid #ccc;
-  background: #fff;
-  min-height: 300px;
-  padding: 15px;
-  font-size: 16px;
-}
+
 
